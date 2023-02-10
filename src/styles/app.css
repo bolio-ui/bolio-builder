@@ -7,7 +7,7 @@
 }
 .component-selected::after {
   content: ' ';
-  @apply border-primary border border-dashed w-full h-full absolute left-0 top-0 pointer-events-none block;
+  @apply border-primary border border-solid w-full h-full absolute left-0 top-0 pointer-events-none block;
 }
 
 .transition {
